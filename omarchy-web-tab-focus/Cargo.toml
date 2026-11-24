@@ -1,0 +1,11 @@
+[package]
+name = "omarchy-web-tab-focus"
+version = "0.2.0"
+edition = "2021"
+description = "Multi-browser native messaging host and CLI to focus or open tabs on Omarchy/Hyprland"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true

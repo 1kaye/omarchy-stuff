@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Omarchy Web Tab Focus",
+  "version": "1.1",
+  "description": "Focus existing tabs or open URLs across Omarchy browsers from Hyprland keybindings",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyQGuv6mnNG+UAc/uIfg9+A9VxfopDJp7K+xTk4TanQNPWsGfqxr5+Gp6EHBg0HHt5niwW5BUzh6Ll+kX38ef+OgN3Zpr7+CAJVpcu4RiAVlmLyosEQhycLnjSfsKk22BFmBJ0lnlMk0ujB5922VOfxyjt5JRhvBdzX8hzsm1OeFb9NHnH43ySkJm07qsDvhih/MLorMZHkiTttyd/7Qjnf5hmEZAnrPUQsXoLAVl/Kzpugzkw/0wUuHwp3sw+/hSCqRXSYIx3y0oh+UricFGuxoJ2blHmjgZYcHLgSZSa22WrI/eUYd/9pBqBGKpkU3jHZ7cHbxvJM6wnRK8XTK/QwIDAQAB",
+  "permissions": ["tabs", "nativeMessaging", "alarms"],
+  "background": {
+    "service_worker": "background-2.js"
+  }
+}
